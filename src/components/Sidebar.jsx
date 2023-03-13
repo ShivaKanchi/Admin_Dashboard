@@ -7,7 +7,9 @@ import { TooltipComponent } from '@syncfusion/ej2-react-popups'
 import { links } from '../data/dummy'
 const Sidebar = () => {
     return (
-        <div>Sidebar</div>
+        <div className='ml-3 h-screen md:overflow-hidden'>
+
+        </div>
     )
 }
 
