@@ -1,7 +1,7 @@
 import React from 'react'
 import { BsCurrencyDollar } from 'react-icons/bs'
 import { GoPrimitiveDot } from 'react-icons/go'
-import { Stacked, Pie, Button, SparkLine } from '../components'
+import { Stacked, Pie, Button, Sparkline } from '../components'
 import { earningData, SparklineAreaData, ecomPieChartDat } from '../data/dummy'
 import { useStateContext } from '../contexts/ContextProvider'
 
@@ -114,7 +114,7 @@ const Home = () => {
                             </div>
 
                             <div className='mt-5'>
-                                <SparkLine
+                                <Sparkline
                                     currentColor="blue"
                                     id="line-sparkline"
                                     type="Line"
