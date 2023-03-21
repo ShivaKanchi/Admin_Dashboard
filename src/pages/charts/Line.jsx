@@ -12,3 +12,21 @@ const Line = () => {
 }
 
 export default Line
+
+
+
+
+//     < SparklineComponent
+// id = 'sparkLine'
+// height = '100px'
+// width = '70%'
+// dataSource = { data }
+// xName = 'x'
+// yName = 'yval'
+// type = { type }
+// tooltipSettings = {{
+//     visible: true, format: '${x} : ${yval}',
+//         }}
+//     >
+//     <Inject services={[SparklineTooltip]} />
+//     </SparklineComponent >
